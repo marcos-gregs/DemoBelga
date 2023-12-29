@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav */
+
+.component__section-nav
+{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: aliceblue;
+}
+.logoNav{
+    width: 30%;
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../BelgImg/329603506_1269645577273830_4703967149718946423_n-transformed.png);
+}
+
+.nav-component-list{
+    display: flex;
+    width: 30vw;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.btn-nav{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 25px;
+   right: 5%;
+    border: none;
+    background-color:#DFA16C ;
+}
+/* Carousel */
+
+.Img-header0{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.6867121848739496) 0%, rgba(0,0,0,0.6990254720052083) 35%, rgba(0,0,0,0.7455357142857143) 100%),url('../BelgImg/SelfiServic.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Img-header1{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.6867121848739496) 0%, rgba(0,0,0,0.6990254720052083) 35%, rgba(0,0,0,0.7455357142857143) 100%),url('../BelgImg/imgheader01.jpeg');
+    background-size: cover;
+    background-position: 1vh;
+   
+
+}
+
+.Img-header2{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.6867121848739496) 0%, rgba(0,0,0,0.6990254720052083) 35%, rgba(0,0,0,0.7455357142857143) 100%),url('../BelgImg/imgheader02.jpg');
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.carousel-btn-prev{
+    position: absolute;
+}
+/* About component */
+
+#component__section-about{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.section-about-left{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50%;
+    
+}
+
+.section-about-rigth{
+    width: 100%;
+    display: flex;
+   flex-direction: row;
+    
+    height: 100%;
+    border-left: 1px,solid,black;
+}
+.section-about-rigth-img-00{
+    width: 40%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: black;
+}
+.section-about-rigth-img-01{
+    width: 50%;
+    height: 90%;
+    margin-top: 5%;
+    
+}
+.rigth-img-01-0{
+    height: 50%;
+    width: 90%;
+   
+    background-color: rgb(192, 143, 143);
+}
+.rigth-img-01-1{
+    height: 50%;
+    width: 90%;
+   
+    background-color: rgb(50, 38, 38);
+}
+
+.btn-about{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 40px;
+    border: none;
+    background-color: #F5BC5F;
+   margin-left: 20%;
+}
+/* Galery */
+#component_section-gallery{
+    width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: row;
+}
+.section-galery-00{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
+.section-galery-01{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(66, 51, 51);
+}
+.section-galery-01-0{
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.section-galery-02{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(51, 45, 45);
+}
+/* contact */
+#component_section-contact{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.section-contact-left{
+    width: 50%;
+}
+.section-contact-rigth{
+    width: 50%;
+}
